@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JCAnimatedProgressBar_Example', :exclusive => true do
+  pod 'JCAnimatedProgressBar', :path => '../'
+end
+
+target 'JCAnimatedProgressBar_Tests', :exclusive => true do
+  pod 'JCAnimatedProgressBar', :path => '../'
+
+  
+end
