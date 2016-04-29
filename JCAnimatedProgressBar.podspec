@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "JCAnimatedProgressBar"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JCAnimatedProgressBar."
+  s.summary          = "A subclass on UIView that provides an animated progress bar."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = This CocoaPod provides the ability to use a UIView as a progress bar with rounded corners, an image that indicates the progress, custom colors and correct visualization in all devices and orientations.
 
   s.homepage         = "https://github.com/Legasquare90/JCAnimatedProgressBar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
