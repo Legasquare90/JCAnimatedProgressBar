@@ -1,5 +1,5 @@
 //
-//  JCAnimatedProgressBarView.swift
+//  JCAnimatedProgressBar.swift
 //  JCAnimatedProgressBar
 //
 //  Created by Jose Angel Cuadrado Mingo on 21/4/16.
@@ -12,7 +12,7 @@ struct Constants {
     static let pointsPerSecond = 60.0
 }
 
-class JCAnimatedProgressBarView: UIView {
+class JCAnimatedProgressBar: UIView {
 
     var filledColor : UIColor = UIColor() {
         didSet {
