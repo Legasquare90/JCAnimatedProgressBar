@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8B20E10D2F399C76C679EF94'
+               BlueprintIdentifier = '631E71833A9363E9FCD4AD0E'
                BlueprintName = 'JCAnimatedProgressBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'JCAnimatedProgressBar.framework'>

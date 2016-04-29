@@ -17,46 +17,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3G-7s-fPH" customClass="JCAnimatedProgressBarView" customModule="JCAnimatedProgressBar_Example" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3G-7s-fPH" customClass="JCAnimatedProgressBar" customModule="JCAnimatedProgressBar">
                                 <rect key="frame" x="20" y="114" width="560" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Wzk-mY-wNt"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="I4D-YN-BFN">
-                                <rect key="frame" x="178" y="186" width="180" height="30"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGM-LY-2DI">
-                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
-                                        <state key="normal" title="+5"/>
-                                        <connections>
-                                            <action selector="addProgress5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wvf-Si-Zc2"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUn-an-wU0">
-                                        <rect key="frame" x="50" y="0.0" width="30" height="30"/>
-                                        <state key="normal" title="+10"/>
-                                        <connections>
-                                            <action selector="addProgress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3fm-iB-L43"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8U-Kr-nZY">
-                                        <rect key="frame" x="100" y="0.0" width="30" height="30"/>
-                                        <state key="normal" title="+25"/>
-                                        <connections>
-                                            <action selector="addProgress25:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPu-hO-oyb"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOb-nN-atx">
-                                        <rect key="frame" x="150" y="0.0" width="30" height="30"/>
-                                        <state key="normal" title="-10"/>
-                                        <connections>
-                                            <action selector="deleteProgress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3K-4i-4Zn"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGM-LY-2DI">
+                                <rect key="frame" x="186" y="186" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="4Gs-7T-0S9"/>
+                                    <constraint firstAttribute="height" constant="30" id="Ukk-vR-PQB"/>
+                                </constraints>
+                                <state key="normal" title="+5"/>
+                                <connections>
+                                    <action selector="addProgress5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wvf-Si-Zc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUn-an-wU0">
+                                <rect key="frame" x="232" y="186" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="kym-ha-vKb"/>
+                                    <constraint firstAttribute="height" constant="30" id="xXQ-Fp-EAo"/>
+                                </constraints>
+                                <state key="normal" title="+10"/>
+                                <connections>
+                                    <action selector="addProgress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3fm-iB-L43"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8U-Kr-nZY">
+                                <rect key="frame" x="278" y="186" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="5Al-iy-4ve"/>
+                                    <constraint firstAttribute="height" constant="30" id="ypY-hF-Zft"/>
+                                </constraints>
+                                <state key="normal" title="+25"/>
+                                <connections>
+                                    <action selector="addProgress25:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QPu-hO-oyb"/>
+                                </connections>
+                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yxT-Uv-rC0">
                                 <rect key="frame" x="20" y="263" width="51" height="31"/>
                                 <connections>
@@ -121,32 +121,49 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOb-nN-atx">
+                                <rect key="frame" x="324" y="186" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="3vy-g8-bgQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="Lvn-hh-iGC"/>
+                                </constraints>
+                                <state key="normal" title="-10"/>
+                                <connections>
+                                    <action selector="deleteProgress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3K-4i-4Zn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Knj-Fv-SSB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="1XF-VO-VSw"/>
+                            <constraint firstItem="iUn-an-wU0" firstAttribute="centerY" secondItem="LGM-LY-2DI" secondAttribute="centerY" id="5h2-gC-JG7"/>
                             <constraint firstItem="fen-RZ-2re" firstAttribute="centerY" secondItem="gEe-l2-thA" secondAttribute="centerY" id="5nf-82-tKO"/>
+                            <constraint firstItem="X8U-Kr-nZY" firstAttribute="centerY" secondItem="LGM-LY-2DI" secondAttribute="centerY" id="6bd-YF-C8Y"/>
                             <constraint firstItem="fen-RZ-2re" firstAttribute="leading" secondItem="gEe-l2-thA" secondAttribute="trailing" constant="8" id="6nO-EY-0oY"/>
+                            <constraint firstItem="X8U-Kr-nZY" firstAttribute="leading" secondItem="iUn-an-wU0" secondAttribute="trailing" constant="16" id="7TN-di-qv7"/>
                             <constraint firstItem="lQQ-uq-rUD" firstAttribute="top" secondItem="NRK-2U-DHt" secondAttribute="bottom" constant="8" id="7tX-5D-tVw"/>
+                            <constraint firstItem="LGM-LY-2DI" firstAttribute="centerY" secondItem="Knj-Fv-SSB" secondAttribute="centerY" id="8hD-ZE-167"/>
                             <constraint firstItem="i3G-7s-fPH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="A5I-T7-V7I"/>
+                            <constraint firstItem="HOb-nN-atx" firstAttribute="centerY" secondItem="LGM-LY-2DI" secondAttribute="centerY" id="BLi-hi-bSe"/>
                             <constraint firstItem="Ite-lB-5J7" firstAttribute="centerX" secondItem="CQ3-GD-NX7" secondAttribute="centerX" id="Fcl-S8-ppv"/>
+                            <constraint firstItem="HOb-nN-atx" firstAttribute="leading" secondItem="X8U-Kr-nZY" secondAttribute="trailing" constant="16" id="FdR-xj-bUq"/>
                             <constraint firstItem="lQQ-uq-rUD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Htm-5a-S7G"/>
                             <constraint firstItem="yxT-Uv-rC0" firstAttribute="top" secondItem="gEe-l2-thA" secondAttribute="bottom" constant="8" id="LzF-RB-69Y"/>
-                            <constraint firstItem="I4D-YN-BFN" firstAttribute="leading" secondItem="Knj-Fv-SSB" secondAttribute="trailing" constant="8" id="MyY-fD-vMg"/>
                             <constraint firstItem="CQ3-GD-NX7" firstAttribute="top" secondItem="Ite-lB-5J7" secondAttribute="bottom" constant="8" id="Rnr-qD-kDY"/>
                             <constraint firstItem="yxT-Uv-rC0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="TNG-5h-JBk"/>
                             <constraint firstItem="exI-el-aMp" firstAttribute="centerY" secondItem="yxT-Uv-rC0" secondAttribute="centerY" id="VQM-1F-Vpr"/>
                             <constraint firstItem="gEe-l2-thA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="WTe-Ub-Ewr"/>
                             <constraint firstItem="CQ3-GD-NX7" firstAttribute="leading" secondItem="lQQ-uq-rUD" secondAttribute="trailing" constant="20" id="Xvb-i3-Eqn"/>
+                            <constraint firstItem="iUn-an-wU0" firstAttribute="leading" secondItem="LGM-LY-2DI" secondAttribute="trailing" constant="16" id="aQ4-fw-RDz"/>
                             <constraint firstItem="i3G-7s-fPH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="cgZ-sW-qcS"/>
                             <constraint firstItem="Knj-Fv-SSB" firstAttribute="top" secondItem="i3G-7s-fPH" secondAttribute="bottom" constant="45" id="f5q-vi-IFm"/>
                             <constraint firstAttribute="trailing" secondItem="i3G-7s-fPH" secondAttribute="trailing" constant="20" id="fLf-kC-bKB"/>
                             <constraint firstAttribute="trailing" secondItem="CQ3-GD-NX7" secondAttribute="trailing" constant="20" id="fUD-uz-PgU"/>
                             <constraint firstItem="NRK-2U-DHt" firstAttribute="top" secondItem="exI-el-aMp" secondAttribute="bottom" constant="35" id="gzx-5L-6e7"/>
                             <constraint firstItem="gEe-l2-thA" firstAttribute="top" secondItem="Knj-Fv-SSB" secondAttribute="bottom" constant="12" id="hCW-1A-zBQ"/>
-                            <constraint firstItem="I4D-YN-BFN" firstAttribute="top" secondItem="i3G-7s-fPH" secondAttribute="bottom" constant="40" id="nC0-SJ-1Ci"/>
                             <constraint firstItem="exI-el-aMp" firstAttribute="leading" secondItem="yxT-Uv-rC0" secondAttribute="trailing" constant="8" id="r8k-mX-Cj9"/>
                             <constraint firstItem="CQ3-GD-NX7" firstAttribute="centerY" secondItem="lQQ-uq-rUD" secondAttribute="centerY" id="rCC-XJ-UKw"/>
+                            <constraint firstItem="LGM-LY-2DI" firstAttribute="leading" secondItem="Knj-Fv-SSB" secondAttribute="trailing" constant="16" id="rNr-ly-xdd"/>
                             <constraint firstItem="lQQ-uq-rUD" firstAttribute="centerX" secondItem="NRK-2U-DHt" secondAttribute="centerX" id="s34-gG-Vne"/>
                             <constraint firstItem="CQ3-GD-NX7" firstAttribute="width" secondItem="lQQ-uq-rUD" secondAttribute="width" id="uFm-b2-GMK"/>
                         </constraints>
@@ -156,7 +173,7 @@
                     <connections>
                         <outlet property="filledPicker" destination="lQQ-uq-rUD" id="Fcn-Z7-sMy"/>
                         <outlet property="hollowPicker" destination="CQ3-GD-NX7" id="jou-MG-xKe"/>
-                        <outlet property="progressBar" destination="i3G-7s-fPH" id="60l-ax-1E3"/>
+                        <outlet property="progressBar" destination="i3G-7s-fPH" id="VHQ-14-vcY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

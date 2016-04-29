@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import JCAnimatedProgressBar
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-
-    @IBOutlet weak var progressBar: JCAnimatedProgressBarView!
+    
+    @IBOutlet weak var progressBar: JCAnimatedProgressBar!
     
     @IBOutlet weak var filledPicker: UIPickerView!
     @IBOutlet weak var hollowPicker: UIPickerView!
