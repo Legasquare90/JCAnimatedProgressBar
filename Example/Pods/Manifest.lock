@@ -1,0 +1,14 @@
+PODS:
+  - JCAnimatedProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - JCAnimatedProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  JCAnimatedProgressBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JCAnimatedProgressBar: 2ee24c765eb5e28ece1372779d67ca34af34e2f9
+
+COCOAPODS: 0.39.0

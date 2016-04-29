@@ -1,0 +1,6 @@
+framework module JCAnimatedProgressBar {
+  umbrella header "JCAnimatedProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -22,7 +22,7 @@ pod "JCAnimatedProgressBar"
 
 ## Author
 
-Jose Angel Cuadrado Mingo, joseangel.cuadrado@intelygenz.com
+Jose Angel Cuadrado Mingo, legasquare90@gmail.com
 
 ## License
 

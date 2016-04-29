@@ -1,0 +1,19 @@
+{
+  "name": "JCAnimatedProgressBar",
+  "version": "0.1.0",
+  "summary": "A short description of JCAnimatedProgressBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JCAnimatedProgressBar",
+  "license": "MIT",
+  "authors": {
+    "Jose Angel Cuadrado Mingo": "joseangel.cuadrado@intelygenz.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JCAnimatedProgressBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JCAnimatedProgressBar/Classes/**/*"
+}
