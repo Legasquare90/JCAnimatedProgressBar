@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JCAnimatedProgressBar: 2ee24c765eb5e28ece1372779d67ca34af34e2f9
+  JCAnimatedProgressBar: a9144c55279cc35dcc5418fa0a350b05f8f2e3d0
 
 COCOAPODS: 0.39.0

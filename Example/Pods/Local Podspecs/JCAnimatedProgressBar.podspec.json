@@ -1,15 +1,15 @@
 {
   "name": "JCAnimatedProgressBar",
   "version": "0.1.0",
-  "summary": "A short description of JCAnimatedProgressBar.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JCAnimatedProgressBar",
+  "summary": "A subclass on UIView that provides an animated progress bar.",
+  "description": "This CocoaPod provides the ability to use a UIView as a progress bar with rounded corners, an image that indicates the progress, custom colors and correct visualization in all devices and orientations.",
+  "homepage": "https://github.com/Legasquare90/JCAnimatedProgressBar",
   "license": "MIT",
   "authors": {
-    "Jose Angel Cuadrado Mingo": "joseangel.cuadrado@intelygenz.com"
+    "Jose Angel Cuadrado Mingo": "legasquare90@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JCAnimatedProgressBar.git",
+    "git": "https://github.com/Legasquare90/JCAnimatedProgressBar.git",
     "tag": "0.1.0"
   },
   "platforms": {
