@@ -12,27 +12,27 @@ struct Constants {
     static let pointsPerSecond = 60.0
 }
 
-class JCAnimatedProgressBar: UIView {
+public class JCAnimatedProgressBar: UIView {
 
-    var filledColor : UIColor = UIColor() {
+    public var filledColor : UIColor = UIColor() {
         didSet {
             self.filledView.backgroundColor = filledColor
         }
     }
     
-    var hollowColor : UIColor = UIColor() {
+    public var hollowColor : UIColor = UIColor() {
         didSet {
             self.hollowView.backgroundColor = hollowColor
         }
     }
     
-    var progressImage : UIImage = UIImage() {
+    public var progressImage : UIImage = UIImage() {
         didSet {
             self.imageView.image = progressImage
         }
     }
     
-    var progress : NSInteger = 0 {
+    public var progress : NSInteger = 0 {
         didSet {
             if (progress > 100) {
                 progress = 100
@@ -44,7 +44,7 @@ class JCAnimatedProgressBar: UIView {
         }
     }
     
-    var roundedCorner : Bool = false {
+    public var roundedCorner : Bool = false {
         didSet {
             if (roundedCorner) {
                 self.layer.cornerRadius = self.bounds.size.height / 2
@@ -60,15 +60,15 @@ class JCAnimatedProgressBar: UIView {
     private var imageView : UIImageView = UIImageView()
     private var progressAdded : NSInteger = 0
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    func rotateView() {
+    public func rotateView() {
         self.updateSubviews()
     }
     
-    override func drawRect(rect: CGRect) {
+    override public func drawRect(rect: CGRect) {
         let widthAdded:CGFloat = self.bounds.size.width * (CGFloat)(self.progressAdded)/100
         let duration:Double = (Double)(widthAdded) / Constants.pointsPerSecond
         
