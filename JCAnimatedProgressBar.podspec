@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = This CocoaPod provides the ability to use a UIView as a progress bar with rounded corners, an image that indicates the progress, custom colors and correct visualization in all devices and orientations.
+  s.description      = "This CocoaPod provides the ability to use a UIView as a progress bar with rounded corners, an image that indicates the progress, custom colors and correct visualization in all devices and orientations."
 
   s.homepage         = "https://github.com/Legasquare90/JCAnimatedProgressBar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
