@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/JCAnimatedProgressBar.svg?style=flat)](http://cocoapods.org/pods/JCAnimatedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/JCAnimatedProgressBar.svg?style=flat)](http://cocoapods.org/pods/JCAnimatedProgressBar)
 
+<img src="https://github.com/Legasquare90/JCAnimatedProgressBar/raw/master/Images/Demo.gif" alt="Demo gif">
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
