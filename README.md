@@ -1,6 +1,6 @@
 # JCAnimatedProgressBar
 
-[![CI Status](http://img.shields.io/travis/Jose Angel Cuadrado Mingo/JCAnimatedProgressBar.svg?style=flat)](https://travis-ci.org/Jose Angel Cuadrado Mingo/JCAnimatedProgressBar)
+![Swift 2.2](https://img.shields.io/badge/Swift-2.2-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/JCAnimatedProgressBar.svg?style=flat)](http://cocoapods.org/pods/JCAnimatedProgressBar)
 [![License](https://img.shields.io/cocoapods/l/JCAnimatedProgressBar.svg?style=flat)](http://cocoapods.org/pods/JCAnimatedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/JCAnimatedProgressBar.svg?style=flat)](http://cocoapods.org/pods/JCAnimatedProgressBar)
